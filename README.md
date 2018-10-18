@@ -35,12 +35,16 @@ All details regarding data curation and analysis of the data, are explained in t
 The list of fields in the csv file are detailed below
  - year	
  - month
- - pagecount_all_views -- total count of views (mobile + desktop)
- - pagecount_desktop_views -- total desktop views
- - pagecount_mobile_views -- total mobile views
- - pageview_all_views -- total count of views (mobile + desktop)
- - pageview_desktop_views -- total desktop views
- - pageview_mobile_views -- total mobile views (web + app)
+ - pagecount_all_views -- total count of views (mobile + desktop) from the pagecount api
+ - pagecount_desktop_views -- total desktop views from pagecount api
+ - pagecount_mobile_views -- total mobile views from pagecount api
+ - pageview_all_views -- total count of views (mobile + desktop) from pageview api
+ - pageview_desktop_views -- total desktop views from pageview api
+ - pageview_mobile_views -- total mobile views (web + app) from pageview api
 
-  
+### Things to Note
+ - There is a 13 month period, during which the data overlaps, this can be seen in the visualization.
+ - As briefly mentioned above, the pageview api has an option to filter data from bots and spiders, which is recommended in case the analysis is only concerned with user data.
+
+
 
